@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* intro */
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.header a, .hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .headerLinks {
+    display: flex;
+    gap: 30px;
+    margin-right: 200px;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 100px 200px 100px 200px;
+}
+
+#heroMainText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.hero {
+    width: 600px;
+}
+
+#placeholder {
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+}
+
+/* Information */
+.information {
+    /* height: 100px; */
+    text-align: center;
+    /* background-color: red; */
+}
+
+.information #random {
+    margin: 75px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 125px;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 350px 150px 350px;
+}
+
+.quote #quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+#thor {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* signUp */
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.signUp #Call {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.signUpSection {
+    background-color: #3882F6;
+    padding: 30px;
+    height: 150px;
+    width: 1000px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.signUp button {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+/* footer */
+
+.footer {
+    padding: 30px;
+    background-color: rgb(57, 57, 85);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 15px;
+}
